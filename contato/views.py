@@ -20,4 +20,4 @@ def index(request):
         },
     }
 
-    return render(request, "index.html", {"contatos": dados})
+    return render(request, "contato/index.html", {"contatos": dados})
